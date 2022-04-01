@@ -1,0 +1,4 @@
+C:\Users\Владислава\RiderProjects\hwdotnet\fcalc-ASP\obj\Debug\net5.0\fcalc-ASP.fsproj.AssemblyReference.cache
+C:\Users\Владислава\RiderProjects\hwdotnet\fcalc-ASP\obj\Debug\net5.0\fcalc-ASP.AssemblyInfoInputs.cache
+C:\Users\Владислава\RiderProjects\hwdotnet\fcalc-ASP\obj\Debug\net5.0\fcalc-ASP.AssemblyInfo.fs
+C:\Users\Владислава\RiderProjects\hwdotnet\fcalc-ASP\obj\Debug\net5.0\fcalc-ASP.MvcApplicationPartsAssemblyInfo.cache
