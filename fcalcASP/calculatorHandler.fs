@@ -1,4 +1,8 @@
-﻿module fcalc_ASP.calculatorHandler
+﻿namespace fcalc_ASP
+
+open fcalcASP
+
+module calculatorHandler =
 
  open fCalc
  open Giraffe
@@ -7,7 +11,7 @@
  open calculator
 
 
- let CalculatorHandler: HttpHandler =
+ let calculatorHandler: HttpHandler =
     fun next ctx ->
         let values = ctx.TryBindQueryString<Values>()
         match values with

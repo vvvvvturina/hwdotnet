@@ -16,7 +16,7 @@ module Startup_ =
     let webApp =
         choose [
             route "/"   >=> text "pong"
-            route "/Calculate"       >=> CalculatorHandler ]
+            route "/Calculate"       >=> calculatorHandler ]
 open Startup_
 type Startup() =
     member _.ConfigureServices (services : IServiceCollection) =
