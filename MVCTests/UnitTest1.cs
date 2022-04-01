@@ -38,7 +38,7 @@ namespace MVCTests
         [InlineData(3, "+", 1)]
         public async Task CalculateAddition(int arg1, string operation, int arg2)
         {
-            var result = _calculator.Calculate(arg1, arg1, _calculator.GetOperator(operation));
+            var result = _calculator.Calculate(arg1, arg2, _parser.ParseOperator(operation));
             Assert.Equal(4,result);
         }
         
@@ -46,7 +46,7 @@ namespace MVCTests
         [InlineData(3, "*", 1)]
         public async Task CalculateMult(int arg1, string operation, int arg2)
         {
-            var result = _calculator.Calculate(arg1, arg1, _calculator.GetOperator(operation));
+            var result = _calculator.Calculate(arg1, arg2, _parser.ParseOperator(operation));
             Assert.Equal(3,result);
         }
         
@@ -54,7 +54,7 @@ namespace MVCTests
         [InlineData(3, "-", 1)]
         public async Task CalculateSubstraction(int arg1, string operation, int arg2)
         {
-            var result = _calculator.Calculate(arg1, arg1, _calculator.GetOperator(operation));
+            var result = _calculator.Calculate(arg1, arg2, _parser.ParseOperator(operation));
             Assert.Equal(2,result);
         }
         
@@ -62,7 +62,7 @@ namespace MVCTests
         [InlineData(3, "/", 1)]
         public async Task CalculateDivision(int arg1, string operation, int arg2)
         {
-            var result = _calculator.Calculate(arg1, arg1, _calculator.GetOperator(operation));
+            var result = _calculator.Calculate(arg1, arg2, _parser.ParseOperator(operation));
             Assert.Equal(3,result);
         }
         
@@ -72,7 +72,7 @@ namespace MVCTests
         {
             try
             {
-                var result = _calculator.Calculate(arg1, arg1, _calculator.GetOperator(operation));
+                var result = _calculator.Calculate(arg1, arg2, _parser.ParseOperator(operation));
             }
             catch (Exception e)
             {

@@ -16,30 +16,6 @@ namespace WebApplicationMVC.Calculator
         public static Exception NotAnOperatorException = new Exception("The operator doesn't exist.");
         public static Exception CanNotDivideByZero = new Exception("Can not divide by zero.");
 
-        public operation GetOperator(string argument)
-        {
-            operation operationType;
-            switch (argument)
-            {
-                case "+":
-                    operationType = operation.Addition;
-                    break;
-                case "-":
-                    operationType = operation.Substraction;
-                    break;
-                case "*":
-                    operationType = operation.Multiply;
-                    break;
-                case "/":
-                    operationType = operation.Division;
-                    break;
-                default:
-                    operationType = operation.NotOperator;
-                    break;
-            }
-            return operationType;
-        }
-        
         public double Calculate(int a, int b, operation operation)
         {
             double result;

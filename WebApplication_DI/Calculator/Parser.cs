@@ -9,7 +9,7 @@ namespace WebApplicationMVC.Calculator
             return int.TryParse(arg, out int result);
         }
 
-        
+
         public void CheckArgsLength(string[] args)
         {
             if (args.Length < 3)
@@ -24,6 +24,19 @@ namespace WebApplicationMVC.Calculator
             {
                 throw new ArgumentException();
             }
+        }
+
+        public Calculator.operation ParseOperator(string arg)
+        {
+            var oper = arg switch
+            {
+                "+" => Calculator.operation.Addition,
+                "-" => Calculator.operation.Substraction,
+                "/" => Calculator.operation.Division,
+                "*" => Calculator.operation.Multiply,
+                _ => Calculator.operation.NotOperator
+            };
+            return oper;
         }
     }
 }
