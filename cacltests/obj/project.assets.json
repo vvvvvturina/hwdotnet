@@ -1257,12 +1257,31 @@
       "calculator/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "WebApplication_DI": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/calculator.dll": {}
         },
         "runtime": {
           "bin/placeholder/calculator.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "WebApplication_DI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/WebApplication_DI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApplication_DI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -4957,6 +4976,11 @@
       "type": "project",
       "path": "../calculator/calculator.csproj",
       "msbuildProject": "../calculator/calculator.csproj"
+    },
+    "WebApplication_DI/1.0.0": {
+      "type": "project",
+      "path": "../WebApplication_DI/WebApplication_DI.csproj",
+      "msbuildProject": "../WebApplication_DI/WebApplication_DI.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5039,6 +5063,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

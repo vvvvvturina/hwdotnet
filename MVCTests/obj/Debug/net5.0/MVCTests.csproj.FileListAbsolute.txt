@@ -1,0 +1,6 @@
+C:\Users\Владислава\RiderProjects\hwdotnet\MVCTests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\Владислава\RiderProjects\hwdotnet\MVCTests\obj\Debug\net5.0\MVCTests.csproj.AssemblyReference.cache
+C:\Users\Владислава\RiderProjects\hwdotnet\MVCTests\obj\Debug\net5.0\MVCTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владислава\RiderProjects\hwdotnet\MVCTests\obj\Debug\net5.0\MVCTests.AssemblyInfoInputs.cache
+C:\Users\Владислава\RiderProjects\hwdotnet\MVCTests\obj\Debug\net5.0\MVCTests.AssemblyInfo.cs
+C:\Users\Владислава\RiderProjects\hwdotnet\MVCTests\obj\Debug\net5.0\MVCTests.csproj.CoreCompileInputs.cache

@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "WebApplication_DI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/WebApplication_DI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApplication_DI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WebApplication_DI/1.0.0": {
+      "type": "project",
+      "path": "../WebApplication_DI/WebApplication_DI.csproj",
+      "msbuildProject": "../WebApplication_DI/WebApplication_DI.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "WebApplication_DI >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Владислава\\.nuget\\packages\\": {}
@@ -33,7 +55,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Владислава\\RiderProjects\\hwdotnet\\WebApplication_DI\\WebApplication_DI.csproj": {
+              "projectPath": "C:\\Users\\Владислава\\RiderProjects\\hwdotnet\\WebApplication_DI\\WebApplication_DI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -56,6 +82,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

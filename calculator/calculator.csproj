@@ -6,4 +6,8 @@
         <RootNamespace>hwdotnet</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\WebApplication_DI\WebApplication_DI.csproj" />
+    </ItemGroup>
+
 </Project>

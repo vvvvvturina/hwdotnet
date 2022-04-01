@@ -12,7 +12,9 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fcalc-resbuilder", "fcalc-r
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fcalcASP", "fcalcASP\fcalcASP.fsproj", "{A612A14A-E5AA-4AFF-A2B9-78119FB3B097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMVC", "WebApplicationMVC\WebApplicationMVC.csproj", "{28AC7286-809C-4610-9B09-0140026AD476}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_DI", "WebApplication_DI\WebApplication_DI.csproj", "{28AC7286-809C-4610-9B09-0140026AD476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTests", "MVCTests\MVCTests.csproj", "{1D744FE9-ED1B-48A9-BB03-F952C60D25D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +50,9 @@ Global
 		{28AC7286-809C-4610-9B09-0140026AD476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28AC7286-809C-4610-9B09-0140026AD476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28AC7286-809C-4610-9B09-0140026AD476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D744FE9-ED1B-48A9-BB03-F952C60D25D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D744FE9-ED1B-48A9-BB03-F952C60D25D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D744FE9-ED1B-48A9-BB03-F952C60D25D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D744FE9-ED1B-48A9-BB03-F952C60D25D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
