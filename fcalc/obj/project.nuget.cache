@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7+Fch6ttjH3nOuaZQxxJuf0gxHyhvChKpF2CnJdP3UAiH+Se/wvgJuPsvX7+vw0TETDfcisbEhHWRRbnVesGfA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Владислава\\RiderProjects\\hwdotnet\\fcalc\\fcalc.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Владислава\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
