@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "calculator/1.0.0": {
+        "dependencies": {
+          "WebApplication_DI": "1.0.0"
+        },
         "runtime": {
           "calculator.dll": {}
+        }
+      },
+      "WebApplication_DI/1.0.0": {
+        "runtime": {
+          "WebApplication_DI.dll": {}
         }
       }
     }
   },
   "libraries": {
     "calculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebApplication_DI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
