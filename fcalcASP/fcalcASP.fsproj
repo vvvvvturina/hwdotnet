@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>fcalc_ASP</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Startup.fs" />
+        <Compile Include="Program.fs" />
+        <Compile Include="calculator.fs" />
+        <Compile Include="calculatorHandler.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Giraffe" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\calculator\calculator.csproj" />
+      <ProjectReference Include="..\fcalc\fcalc.fsproj" />
+    </ItemGroup>
+
+</Project>

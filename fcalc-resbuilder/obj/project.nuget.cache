@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CPXpTtdz3IXTVr5lJK+1+6ehkPCMkMPxdf+HqZ9bUPIZURGE6bWVnOiAZK3mteqXNgmGYOFm6vaFyTIwpSweAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Владислава\\RiderProjects\\hwdotnet\\fcalc-resbuilder\\fcalc-resbuilder.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Владислава\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
