@@ -14,3 +14,14 @@ C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0
 C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\ref\calculator.dll
 C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.pdb
 C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.genruntimeconfig.cache
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\WebApplication_DI.Views.dll
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\WebApplication_DI.Views.pdb
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\WebApplication_DI.deps.json
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\WebApplication_DI.runtimeconfig.json
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\WebApplication_DI.runtimeconfig.dev.json
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\appsettings.json
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\WebApplication_DI.exe
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\WebApplication_DI.dll
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\WebApplication_DI.pdb
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.csproj.CopyComplete
