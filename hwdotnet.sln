@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_DI", "WebApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTests", "MVCTests\MVCTests.csproj", "{1D744FE9-ED1B-48A9-BB03-F952C60D25D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppHW9", "WebAppHW9\WebAppHW9.csproj", "{92E02B3A-42B0-4B6C-B5F9-A929812820A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppHW10", "WebAppHW10\WebAppHW10.csproj", "{92E02B3A-42B0-4B6C-B5F9-A929812820A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
