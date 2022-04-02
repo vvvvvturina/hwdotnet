@@ -1,0 +1,16 @@
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\calculator.exe
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\calculator.deps.json
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\calculator.runtimeconfig.json
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\calculator.runtimeconfig.dev.json
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\calculator.dll
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\ref\calculator.dll
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\bin\Debug\net5.0\calculator.pdb
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.csproj.AssemblyReference.cache
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.AssemblyInfoInputs.cache
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.AssemblyInfo.cs
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.csproj.CoreCompileInputs.cache
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.dll
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\ref\calculator.dll
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.pdb
+C:\Users\Владислава\RiderProjects\hwdotnet\calculator\obj\Debug\net5.0\calculator.genruntimeconfig.cache
